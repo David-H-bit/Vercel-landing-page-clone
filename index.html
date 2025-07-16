@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://geisthub.vercel.app/font.css" />
+  <title>Vercel clone</title>
+</head>
+<body>
+  <div class="hamburger-menu">
+    <!-- Only shown on mobile -->
+    <h1>▲ Vercel</h1>
+    <button id="hamburger-icon">☰</button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Solutions</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Enterprise</a></li>
+      <li><a href="#">Docs</a></li>
+      <li><a href="#">Pricing</a></li>
+      <button class="black-btn">Log in</button>
+      <button class="black-btn">Contact</button>
+      <button class="white-btn">Sign up</button>
+    </ul>
+  </div>
+  </div>
+  <div class="page-content">
+  <nav>
+    <div class="nav-container">
+      <div class="left-nav">
+        <ul>
+          <li><h1 style=" color: white; font-size: 1.3rem; padding-right:20px ;">▲ Vercel</h1></li>
+          <li><a href="#">Products ▾</a>
+            <div class="products-dropdown">
+              <div class="frameworks">
+                <h1>Frameworks</h1>
+                <div class="dropdown-card">
+                  <h4>Next.js</h4>
+                  <p>The native Next.js platform</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Turborepo</h4>
+                  <p>Speed with Enterprise scale</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>AI SDK</h4>
+                  <p>The AI Toolkit for TypeScript</p>
+                </div>
+              </div>
+              <div class="Infrastructure">
+                <h1>Infrastructure</h1>
+                <div class="dropdown-card">
+                  <h4>CI/CD</h4>
+                  <p>Helping teams ship 6x faster</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Delivery network</h4>
+                  <p>Fast, scalable and reliable</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Fluid compute</h4>
+                  <p>Servers, in serverless form</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>AI Infrastructure</h4>
+                  <p>AI Gateway, Sandbox and more</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Observability</h4>
+                  <p>Trace every step</p>
+                </div>
+              </div>
+              <div class="Security">
+                <h1>Security</h1>
+                <div class="dropdown-card">
+                  <h4>Platform security</h4>
+                  <p>DDoS Protection, Firewall</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Web Application Firewall</h4>
+                  <p>Granular, custom protection</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Bot management</h4>
+                  <p>BotID, Bot protection</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Solutions ▾</a>
+            <div class="products-dropdown">
+              <div class="use-cases">
+                <h1>Use Cases</h1>
+                <div class="dropdown-card">
+                  <h4>AI Apps</h4>
+                  <p>Deploy at the speed of AI</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Composable Commerce</h4>
+                  <p>Power storefronts that convert</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Marketing sites</h4>
+                  <p>Launch campaigns fast</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Multi-tenant Platforms</h4>
+                  <p>Scale apps with one codebase</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Web apps</h4>
+                  <p>Ship features, not infrastructure</p>
+                </div>
+              </div>
+              <div class="users">
+                <h1>Users</h1>
+                <div class="dropdown-card">
+                  <h4>Platform engineers</h4>
+                  <p>Automate away repetition</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Design engineers</h4>
+                  <p>Deploy for every idea</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Resources ▾</a>
+            <div class="products-dropdown">
+              <div class="Tools">
+                <h1>Tools</h1>
+                <div class="dropdown-card">
+                  <h4>Resource center</h4>
+                  <p>Today's best practices</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Marketplace</h4>
+                  <p>Extend and automate workflows</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Templates</h4>
+                  <p>Jumpstart app development</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Guides</h4>
+                  <p>Find help quickly</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Partner finder</h4>
+                  <p>Get help from solution partners</p>
+                </div>
+              </div>
+              <div class="company">
+                <h1>Company</h1>
+                <div class="dropdown-card">
+                  <h4>Customers</h4>
+                  <p>Trusted by the best teams</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Blog</h4>
+                  <p>The latest posts and changes</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Changelog</h4>
+                  <p>See what shipped</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Press</h4>
+                  <p>Read the latest news</p>
+                </div>
+                <div class="dropdown-card">
+                  <h4>Events</h4>
+                  <p>Join us at an event</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <button class="black-btn">Log in</button>
+        <button class="black-btn">Contact</button>
+        <button class="white-btn">Sign up</button>
+      </div>
+    </div>
+  </nav>
+  <div class="news-top">
+    <button class="new">New</button>
+    <h4>Catch up with everything we announced at Ship 25</h4>
+    <a href="#"> Watch on demand ▸</a>
+  </div>
+  <section class="hero">
+    <div class="topvideo-hero">
+      <iframe
+      src="https://www.youtube.com/embed/sPmat30SE4k" 
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+      </iframe>
+    </div>
+    <div style="height: 60px; width: 100%; border: 1px solid rgba(255, 255, 255, 0.2);"></div>
+    <div class="gridhero">
+      <div class="gridtextbox">
+        <h1>Build and deploy on the AI cloud.</h1>
+        <p>Vercel provides the developer tools and cloud infrastructure to build, scale and secure a faster, more personalized web.</p>
+        <div class="container">
+          <button>▲ Start deploying</button>
+          <button>Get a demo</button>
+        </div>
+      </div>
+    </div>
+    <div style="height: 30px; width: 100%; border: 1px solid rgba(255, 255, 255, 0.2); border-top: 0;"></div>
+    <div class="sellingpoints">
+      <div class="top-sellingpoints">
+        <h1>runway build times went from 7m to 40s.leonardo-ai saw a 95% reduction in page load times._zapier saw 24x faster builds.</h1>
+        <p>Get started using our pre-built templates. Easily stream long-running LLM responses for a better user experience with zero-config infrastructure that's always globally performant.</p>
+      </div>
+      <div class="bottom-sellingpoints">
+        <div class="buttonswitches">
+          <button id="AI-apps" class="selected">AI apps</button>
+          <button id="web-apps">Web apps</button>
+          <button id="ecommerce">Ecommerce</button>
+          <button id="marketing">Marketing</button>
+          <button id="platforms">Platforms</button>
+        </div>
+      </div>
+    </div>
+    <div style="height: 30px; width: 100%; border: 1px solid rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.2);"></div>
+    <div class="impact-titles-s1">
+      <div class="deploys">
+        <h4>Git-connected Deploys</h4>
+        <h1>From localhost to https, in seconds. Deploy from Git or your CLI.</h1>
+        <img src="images/undraw_developer-activity_4zqd.png" alt="placeholder image" width="80%">
+      </div>
+      <div class="pre-production">
+        <h4>Collaborative Pre-production</h4>
+        <h1>Every deploy is remarkable. Chat with your team on real, production-grade UI, not just designs.</h1>
+        <img src="images/undraw_social-networking_v4z1.png" alt="placeholder image" width="80%">
+      </div>
+    </div>
+    <section class="observability-section">
+      <div class="observability-header">
+        <h2>Observability</h2>
+        <p>Understand performance and traffic with live metrics, globally.</p>
+      </div>
+      <div class="observability-charts">
+        <div class="chart-card fade-in">
+          <h3>Serverless Function Duration</h3>
+          <div class="chart-placeholder">[ Chart Placeholder ]</div>
+        </div>
+        <div class="chart-card fade-in">
+          <h3>Traffic by Location</h3>
+          <div class="chart-placeholder">[ Chart Placeholder ]</div>
+        </div>
+      </div>
+    </section>
+    <div class="buttons-grid">
+      <div class="sides">
+        <div class="side1">
+          <h4>Vercel AI Gateway</h4>
+          <h1>Deploy AI in seconds. Access all major models through a single, unified interface and shared AI credit wallet.</h1>
+        </div>
+        <div class="side2">
+          <h4>Instant Rollbacks</h4>
+          <h1>Go ahead, deploy on Friday. Safely manage releases with automated deployments and instant rollbacks.</h1>
+        </div>
+      </div>
+      <div class="bottom">
+        <h1>Scale your <button>🏠 Enterprise</button> without compromising <button>🛡 Security</button> </h1>
+      </div>
+    </div>
+    <div style="height: 30px; width: 100%; border: 1px solid rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.2);"></div>
+    <div class="templates-section">
+      <div class="column1">
+        <h1>Deploy your first app in seconds.</h1>
+        <p>Deploy automatically from git or with our CLI</p>
+        <p>Wide range support for the most popular frameworks</p>
+        <p>Previews for every push</p>
+        <p>Automatic HTTPS for all your domains</p>
+      </div>
+      <div class="column2">
+        <div class="next-js-template">
+          <div class="framework-hero">
+            <img src="images/nextdotjs.svg" alt="logo of next.js" height="50px">
+          </div>
+          <div class="framework-text">
+            <h1>Next.js Templates</h1>
+          </div>
+        </div>
+        <div class="react-template">
+          <div class="framework-hero">
+            <img src="images/react.svg" alt="logo of react" height="50px">
+          </div>
+          <div class="framework-text">
+            <h1>React Templates</h1>
+          </div>
+        </div>
+        <div class="astro-template">
+          <div class="framework-hero">
+            <img src="images/astro.svg" alt="logo of react" height="50px">
+          </div>
+          <div class="framework-text">
+            <h1>Astro Templates</h1>
+          </div>
+        </div>
+      </div>
+      <div class="column3">
+        <div class="svelte-template">
+          <div class="framework-hero">
+            <img src="images/svelte.svg" alt="logo of next.js" height="50px">
+          </div>
+          <div class="framework-text">
+            <h1>Svelte Templates</h1>
+          </div>
+        </div>
+        <div class="nuxt-template">
+          <div class="framework-hero">
+            <img src="images/nuxt.svg" alt="logo of react" height="50px">
+          </div>
+          <div class="framework-text">
+            <h1>Nuxt Templates</h1>
+          </div>
+        </div>
+        <div class="python-template">
+          <div class="framework-hero">
+            <img src="images/python.svg" alt="logo of react" height="50px">
+          </div>
+          <div class="framework-text">
+            <h1>Python Templates</h1>
+          </div>
+        </div>
+        <button class="columnbtn-1">Talk to an expert</button>
+        <button class="columnbtn-2">Get an enterprise trial</button>
+        <button class="mega-button">Start deploying</button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">CLI & API</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Edge Network</a></li>
+                        <li><a href="#">Serverless Functions</a></li>
+                        <li><a href="#">Preview Deployments</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Next.js Conf</a></li>
+                        <li><a href="#">Open Source</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Experts</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">DX Survey</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Trademark Policy</a></li>
+                        <li><a href="#">Inactivity Policy</a></li>
+                        <li><a href="#">DPA</a></li>
+                        <li><a href="#">SLA</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <svg width="76" height="16" viewBox="0 0 76 16" fill="white">
+                        <path d="M38 0L44 6L38 12L32 6L38 0Z"/>
+                        <path d="M0 12.5H5.5V16H0V12.5Z"/>
+                        <path d="M8.5 12.5H14V16H8.5V12.5Z"/>
+                        <path d="M17 12.5H22.5V16H17V12.5Z"/>
+                        <path d="M25.5 12.5H31V16H25.5V12.5Z"/>
+                        <path d="M49 2H76V4H49V2Z"/>
+                        <path d="M49 6H76V8H49V6Z"/>
+                        <path d="M49 10H76V12H49V10Z"/>
+                    </svg>
+                    <span class="logo-text">Vercel</span>
+                </div>
+                
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0016 3.542a6.658 6.658 0 01-1.889.518 3.301 3.301 0 001.447-1.817 6.533 6.533 0 01-2.087.793A3.286 3.286 0 007.875 6.03a9.325 9.325 0 01-6.767-3.429 3.289 3.289 0 001.018 4.382A3.323 3.323 0 01.64 6.575v.045a3.288 3.288 0 002.632 3.218 3.203 3.203 0 01-.865.115 3.23 3.23 0 01-.614-.057 3.283 3.283 0 003.067 2.277A6.588 6.588 0 01.78 13.58a6.32 6.32 0 01-.78-.045A9.344 9.344 0 005.026 15z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="GitHub">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
